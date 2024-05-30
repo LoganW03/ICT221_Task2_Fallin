@@ -1,0 +1,9 @@
+2 versions of the game exist.
+
+Running "Main.java" in the engine folder will run the "GameEngine.java" class in the "FunctionalTextGame" folder. This is the normal text version of
+the game. It does not include any GUI implementation or code, and is the correct version to run if testing the game engine, as it functions correctly
+due to buggy GUI code not being included.
+
+Running "RunGame.java" in the gui folder will run the "GameGUI.java" class in the same folder. This will use the "GameEngine.java" class in the engine
+folder to run the GUI version of the game. It does not contain the normal game engine implementation, as this "GameEngine" class is programmed
+differently from the "GameEngine" class that the text version uses.
